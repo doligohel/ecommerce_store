@@ -1,35 +1,9 @@
-## Run Locally
+I designed a responsive product card using Bootstrap's grid layout and card components. The card includes a product image, name, price, and a variant dropdown with a dynamic "Add to Cart" or "Out of Stock" button. Since the provided API (https://fakestoreapi.com/products) does not include variant options or stock availability, I manually added mock data for both to fulfill the test requirements and demonstrate the required UI functionality.
 
-Clone the project
+Please note:
 
-```bash
-  git clone https://dredsoft-admin@bitbucket.org/dredsoft/ecommerce.git
-```
+The variant dropdown is for UI demonstration only and is not functionally connected to the cart logic.
 
-Go to the project directory
+The "Out of Stock" status is randomly assigned, so you may need to refresh the page to see different products marked as out of stock.
 
-```bash
-  cd eCommerce
-```
-
-Install dependencies
-
-```bash
-  npm install
-
-  or 
-
-  npm install react-material-ui-carousel --save --legacy-peer-deps
-```
-
-Start the server
-
-```bash
-  npm start
-```
-
-The server should now be running. You can access the application by opening a web browser and entering the following URL:
-
-```bash
-  http://localhost:3000
-```
+The layout is fully responsive and follows UI/UX best practices using Bootstrap classes.
